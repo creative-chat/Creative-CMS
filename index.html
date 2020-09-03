@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Creative CMS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="vendor/bootstrap-4.5.0-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="cms/css/style.css">
+</head>
+<body>
+
+<section id="navbar">
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="">Creative CMS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Home</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/creative-chat/Creative-MVC" target="_blank">Creative MVC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/creative-chat/Creative-CMS" target="_blank">Creative CMS</a>
+            </li>
+          </ul>
+
+        </div> 
+
+    </div>
+  </nav>
+</section>
+
+<br/><br/>
+
+<div class="space-box-50"></div>
+
+<section id="post-list">
+  <div class="container">
+  
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="form-inline">
+          <input class="form-control mr-sm-2 search_form_input search_main" type="text" placeholder="Search" id="search">
+          <button class="btn btn-success search_main_submit" id="submit">Search</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="space-box-40"></div>
+
+    <div class="row">
+      
+      <div class="col-xs-12 col-sm-12 col-md-12">
+
+        <div class="card mb-3" id="logs_content"></div>
+
+      </div>
+
+  </div>
+</section>
+
+<section id="footer">
+  <div class="footer margin-top-100">
+    <center>
+      <p>
+        Copyright &copy; 2020. <strong><a href="http://yuan.network" target="_blank">Creative CMS</a></strong>
+      </p>
+    </center>
+  </div>
+</section>
+
+<script src="cms/js/jquery-3.5.1.js"></script>
+<script src="cms/js/cms.js"></script>
+</body>
+</html>
