@@ -12,3 +12,6 @@ Udemy:
 # Creative CMS author
 Author:       Creative Source <br/>
 Author URI:   http://creative.chat <br/>
+
+# Version Update
+Version 0.1: 	04/09/2020<br/>
